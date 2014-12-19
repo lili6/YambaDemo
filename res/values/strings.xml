@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TopicDemo</string>
+    <string name="button_tweet">发表动态</string>
+    <string name="hint_status">What\'s happening now...</string>
+    <string name="toast_post">在此处理后台提交数据。。。</string>
+    <string name="toast_status">动态发送成功！！</string>
+    <string name="topic_title_hint">Please input title...</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="username_summary">what\'s your user name?</string>
+    <string name="password_summary">how do your login in?</string>
+    <string name="refresh_summary">How frequently should data refresh?</string>
+    <string name="action_settings">偏好设置</string>
+    <string name="tweet">分享</string>
+    <string name="refresh">刷新</string>
+    <string name="purge">删除</string>
+    <string name="status_update">更新动态</string>
+</resources>

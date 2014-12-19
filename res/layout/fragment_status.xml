@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:paddingBottom="0dp"
+
+        >
+   <!-- <TextView android:id="@+id/topic_title_label"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/topic_title"
+              android:layout_alignLeft="@+id/editStatus"
+
+
+                      />-->
+    <!--<EditText
+              android:id="@+id/topic_title"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignLeft="@+id/editStatus"
+
+              android:hint="@string/topic_title_hint"
+              android:layout_below="@+id/buttonTweet"
+              android:layout_alignRight="@+id/editStatus"
+              android:ems="10"
+              >
+
+
+            </EditText>-->
+    <Button android:id="@+id/buttonTweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:text="@string/button_tweet"/>
+
+    <EditText
+            android:id="@+id/editStatus"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonTweet"
+            android:layout_marginTop="10dp"
+
+            android:ems="10"
+            android:hint="@string/hint_status"
+            android:inputType="textMultiLine">
+                <requestFocus />
+            </EditText>
+
+    <ImageButton
+            android:id="@+id/buttonPhoto"
+            android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/photo_icon"
+               android:layout_marginLeft="5dp"
+               android:layout_below="@+id/editStatus"/>
+    <ImageButton
+               android:id="@+id/camera_icon"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/camera_icon"
+               android:layout_toRightOf="@+id/buttonPhoto"
+               android:layout_marginLeft="5dp"
+               android:layout_below="@+id/editStatus"/>
+
+
+    <TextView
+            android:id="@+id/textCount"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/buttonTweet"
+            android:layout_below="@+id/editStatus"
+            android:text="剩余字数:140"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+</RelativeLayout>
+
